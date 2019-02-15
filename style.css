@@ -1,46 +1,91 @@
-/*
-Stylesheet #1
-=============
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
 
-body {
-  /* Box-model */
-  padding: 0;
-
-  /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-  /* Typography */
-
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-
-  /* Visual */
-  background: #efeee7;
+Body {
+    
+    color: #777;
+   background: #777;
+    width: 960px ;
+    font-size: 18px;
 }
 
-header {
-  background: #d21034;
+h1{
+    font-family:'Arial';
+    text-align: center;
+    background: #ebebeb;
+    color: #777;
+    padding:30px 15px;
+     margin-left: 100px;
+     
+}
+#article{
+    color:  #ebebeb;
+     background:#777;
+     padding: 70px 100px;
+     overflow: hidden;
+     width: 150px;
+     height: 200px;
+     margin: -340px 90px;
+     
+     
+
+}
+     #p {
+        color: #777;
+        background:#ebebeb;
+        padding: 10px 30px;
+        font-family: 'sans-serif';
+        width: 150px;
+     }
+.section {
+    color:  #777;
+    background:#ebebeb;
+    padding: 150px 150px;
+    width:200px;
+    height: 90px;
+    margin:26px 35px;
+    
+    
+
+    
+}
+.nav {
+    color:  #777;
+    background:#ebebeb;
+    padding: 40px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
-  text-align: center;
-
-  /* Visual */
-  background: #333;
+#aside {  
+    color:  #777;
+    background:#ebebeb;
+    padding: 150px 150px;
+    bottom: -5px;
+     position: absolute;
+    right: 450px;
+    margin:255px;
+   margin-top: -300px;
+   width:110px; 
 }
+#h {  color:  #777;
+    background:#ebebeb;
+    
+    padding: 5% 10%;
+    left: 30px;
+    width: 50px;
+       
+}
+
+#footer {
+    color:  #777;
+    background:#ebebeb;
+    padding: 40px;
+    margin: 70px 40px;
+    margin-top: 15px;
+   
+   
+}
+
+
+
+    
